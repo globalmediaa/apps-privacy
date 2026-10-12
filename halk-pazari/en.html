@@ -18,44 +18,77 @@ a{color:#0f6b54}
 <body>
 <main>
 <h1>Halk Pazarı Privacy Policy</h1>
-<p class="meta">Last updated: 12 October 2026 · iOS version 0.5.3 (17) · <a href="index.html">Türkçe</a></p>
+<p class="meta">Last updated: 12 October 2026 · <a href="index.html">Türkçe</a></p>
 
-<p>Halk Pazarı is a fruit and vegetable market game developed by Global Media. This policy explains what data the iOS version of the game on the App Store processes.</p>
+<p>Halk Pazarı is a fruit and vegetable market game developed by Global Media. This page explains which data the iOS version on the App Store processes and why.</p>
 
-<h2>Data sent to our server</h2>
-<p>Other players' stalls also appear in the game's market. To make this work, the game connects to Global Media's server (halkpazari.gmgaming.app) when it starts and sends the following:</p>
+<h2>Guest player</h2>
+
+<p>When you open the game, our server (halkpazari.gmgaming.app) gives you a random guest player ID and a session token. No name, email or phone number is asked for. The session token is valid for 30 days; the server keeps only a hash of it, not the token itself.</p>
+
+<h2>What other players see</h2>
+
+<p>Other players' stalls appear in the market. For this, the following is sent to the server and shown to players in the same market:</p>
 <ul>
-<li>A random guest player ID and session key that the server assigns automatically. We do not ask for your name, email address or phone number.</li>
-<li>The name you give your stall. Other players can see it in the market, so please do not use your real name. Names containing profanity or offensive words are not accepted and are shown to other players as "Tezgâh #NN" (stall number).</li>
-<li>Your stall positions in the market, your level, the kinds of produce on your stall, your stall's look (canopy, cold cabinet, helper, manager) and whether you are currently playing.</li>
+<li>The name you give your stall. We recommend not using your real name. Offensive names are not accepted and are shown to others as "Tezgâh #NN".</li>
+<li>Your level, the products on your stall, your stall's look (awning, cooler, helper, manager) and your place in the market.</li>
+<li>Whether you are currently in the game.</li>
 </ul>
-<p>Your full save (cash, stock, ledger) stays on your device. Account linking and cloud save are not available in this version. If they are switched on later, this policy and the App Store privacy details will be updated before that happens.</p>
-<p>This data is used only to run the game. It is not sold, not used for advertising or tracking, and not shared with third parties. The connection is encrypted with HTTPS.</p>
+<p>Your cash, stock, loans and ledger are not shown to other players.</p>
+
+<h2>Linking Apple or Google (optional)</h2>
+
+<p>If you want, you can link your guest account by choosing <b>Apple ile bağla</b> (Link with Apple) or <b>Google ile bağla</b> (Link with Google) from the account icon. Sign-in happens in the browser (Safari on iOS) and you then return to the game. Linking is optional; the game is fully playable as a guest.</p>
+<p>When you link, we store:</p>
+<ul>
+<li>The account identifier Apple or Google gives us for you.</li>
+<li>Your email address. If you choose "Hide My Email" with Apple, we only receive Apple's private relay address.</li>
+<li>If you link with Apple, the refresh token Apple issues. It is stored encrypted and used only to revoke the Apple connection when you delete your account.</li>
+</ul>
+<p>We do not store your name or profile picture. We do not show your email address to other players and do not use it for ads or newsletters.</p>
+
+<h2>Cloud save</h2>
+
+<p>When your account is linked, your game progress (cash, stock, level, stalls, ledger) is also saved on our server, so you can continue on a new phone by signing in with the same account. Guest players' saves stay only on the device.</p>
 
 <h2>Reporting and blocking</h2>
-<p>If you see a stall with an offensive name, you can report it by tapping the stall or from Settings &gt; Tezgâh şikâyet ve engelleri. A report sends the following to our server: your guest player ID, the reported stall's player ID, the stall number, the name you saw, the reason you chose and the date. If the server does not support reports yet, the game opens an email draft with the same details addressed to info@globalmedia.com.tr; sending it is up to you, and in that case we also see your email address. Reports are used only to review abuse, are reviewed within 24 hours, and offensive names are removed. A name reported by several players stays hidden in the market until it is reviewed.</p>
-<p>When you block a stall, its name is hidden only on your device. The block list stays on your device, is not sent to our server and can be cleared in Settings.</p>
 
-<h2>Data we do not collect</h2>
-<p>The iOS version has no ads, no in-app purchases, no analytics and no crash reporting tools. The game does not track you across apps or websites and does not access the advertising identifier. It does not ask for access to your location, contacts, camera, microphone or photos. All in-game money and loans are virtual.</p>
+<p>If you see a stall with an offensive name, you can report it by tapping the stall or from Settings &gt; Stall reports and blocks. A report sends: your player ID, the reported stall's player ID and number, the name you saw, the reason you chose and the date. If the server cannot be reached, the game opens an email draft with the same details to info@globalmedia.com.tr; if you send it, we also see your email address.</p>
+<p>Reports are used only to review abuse and are reviewed within 24 hours. A name reported by several players is hidden in the market until it is reviewed. When you block a stall, its name is hidden only on your device; the block list stays on the device and is not sent to the server.</p>
+
+<h2>Ads and tracking</h2>
+
+<p>The iOS version has no ads, in-app purchases, analytics or crash-reporting tools. The game does not track you across other apps and websites and does not access the advertising identifier. It does not ask for location, contacts, camera, microphone or photos. In-game money and loans are virtual.</p>
 
 <h2>Notifications</h2>
-<p>If you allow it, the game shows a single local reminder on your device when you have not played for a day. The reminder is scheduled on the device and nothing is sent to our server.</p>
 
-<h2>IP address and server logs</h2>
-<p>The game server does not store your IP address in its database; it only uses it briefly to limit requests and prevent abuse. The web server in front of it keeps standard access logs (IP address, date and time, requested address) for security and troubleshooting and deletes them after a short period.</p>
+<p>On iOS, if you allow it, the game shows a single local reminder when you have not played for a day. It is scheduled on the device; nothing is sent to our server.</p>
+
+<h2>Server, IP address and access logs</h2>
+
+<p>Our servers run in Hetzner's data center in Germany (European Union) and connections are encrypted with HTTPS. The game server does not write your IP address to its database; it uses it only for short-lived rate limiting against abuse. The web server in front of it keeps standard access logs (IP address, date and time, requested address) for security and troubleshooting.</p>
+<p>We do not sell this data, do not use it for ads or tracking and do not share it with third parties.</p>
 
 <h2>Retention and deletion</h2>
-<p>Your guest ID, stall data and any reports you sent or that were made about your stall stay on the server until you ask us to delete them. The session key is valid for 30 days. Nightly database backups are kept for up to 30 days.</p>
-<p>Deleting the app removes the save on your device. To have your stall data removed from the server, email info@globalmedia.com.tr with your in-game stall name and we will complete the request within 30 days. More details: <a href="https://halkpazari.gmgaming.app/hesap-silme/">halkpazari.gmgaming.app/hesap-silme</a>.</p>
+
+<p>Your account and game data stay on the server until you ask for deletion. Daily database backups are kept for at most 30 days; deleted data leaves the backups at the end of that period.</p>
+<ul>
+<li><b>Linked account:</b> In the game, account icon &gt; <b>Hesabımı sil</b> (Delete my account) &gt; <b>Hesabımı kalıcı sil</b> (Permanently delete). Your account, linked Apple/Google identity and email address, cloud save, stall places and stall name, sessions and report records are deleted. If you linked with Apple, the Apple connection is revoked as well.</li>
+<li><b>Guest player:</b> Email <a href="mailto:info@globalmedia.com.tr">info@globalmedia.com.tr</a> with your in-game stall name; we delete your data on the server within 30 days.</li>
+<li>Deleting the app removes the game save on the device.</li>
+</ul>
+<p>Details: <a href="https://halkpazari.gmgaming.app/hesap-silme/#en">halkpazari.gmgaming.app/hesap-silme</a></p>
 
 <h2>Children</h2>
+
 <p>The game is meant for a general audience. We do not knowingly collect personal information from children.</p>
 
 <h2>Changes</h2>
+
 <p>Changes to this policy are published on this page with a new date.</p>
 
 <h2>Contact</h2>
+
 <p>Global Media · <a href="mailto:info@globalmedia.com.tr">info@globalmedia.com.tr</a></p>
 </main>
 </body>
